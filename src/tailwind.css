@@ -6,3 +6,23 @@
 Add additional Tailwind styles to this file, for example with @layer:
 https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
 */
+
+.tagline:where(.astro-jbfsktt5){
+
+    color: #525252 !important;
+    font-size: 16px  !important;
+}
+h1:where(.astro-jbfsktt5){
+    font-size: 50px !important;
+    white-space: nowrap !important;
+}
+.hero:where(.astro-jbfsktt5)>img:where(.astro-jbfsktt5), .hero:where(.astro-jbfsktt5)>.hero-html:where(.astro-jbfsktt5){
+    height: 30rem !important;
+    width: 40rem !important;
+}
+.sl-markdown-content :not(a, strong, em, del, span, input, code) + :not(a, strong, em, del, span, input, code, :where(.not-content *)){
+    margin-top: 1px !important;
+}
+.hover-invert:hover {
+    filter: invert(1);
+  }

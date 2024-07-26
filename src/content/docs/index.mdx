@@ -5,30 +5,49 @@ template: splash
 hero:
   title: |
     Welcome to Saras
-  tagline: Learn coding!
+  tagline: Your ultimate destination for personalized, engaging, and comprehensive learning experiences.
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/saraslogo.svg
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
 
+
+<div>
+<div class="flex flex-col justify-center items-center">
 ## Tools
+<p class="text-[#707070] text-center mx-[10rem] pb-[2.5rem]">Learning tools enhance educational experiences by providing interactive, engaging resources for acquiring and applying knowledge </p>
 
-<CardGrid stagger>
-	<Card title="Laravel">
-		<a href="#" class="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
-Sample URL
+</div>
+<div class="grid grid-cols-4 gap-[3.25rem] ">
+
+<div class="rounded-lg bg-[#D44432] py-4 px-2  items-center shadow-md transition duration-300 ">
+ <a target="_blank" class="flex flex-col justify-center items-center no-underline" href="https://laravel-pranion-saras.vercel.app/laravel/api-documentation/apidoc/">
+ <img src="../../src/assets/laravel.svg" class="!h-[5rem] w-[5rem] " />
+    <p class="text-[15px] !text-[#ffffff] font-semibold !text-[22px]">Laravel</p>
+    <p class="text-[#ffffff] flex text-center !text-[12px]">Laravel is a PHP framework designed for building web applications</p>
 </a>
-	</Card>
-	<Card title="React best practices" icon="add-document">
-				<a href="https://react-pranion-saras.vercel.app/react/best-practices/hooks/" class=" items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
-Hooks
+  </div>
+  
+<div class="rounded-lg bg-[#06B6D4] py-4 px-2 flex flex-col items-center shadow-md transition duration-300 ">
+ <a target="_blank" class="flex flex-col justify-center items-center no-underline" href="https://react-pranion-saras.vercel.app/react/getting-started/quick-start/">
+ <img src="../../src/assets/react.svg" class="!h-[5rem] w-[5rem] "/>
+    <p class="text-[15px] !text-[#ffffff] font-semibold !text-[22px]">React</p>
+    <p class="text-[#ffffff] flex text-center !text-[12px]">React is a JavaScript library for building user interfaces</p>
 </a>
-<a href="https://react-pranion-saras.vercel.app/react/best-practices/components/" class=" items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
-Components
-</a>
-<a href="https://react-pranion-saras.vercel.app/react/best-practices/state-managment/" class=" items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
-State Management
-</a>
-	</Card>
-</CardGrid>
+  </div>
+
+<div class="rounded-lg bg-[#FFA315] py-4 px-2 flex flex-col items-center shadow-md transition duration-300 ">
+ <img src="../../src/assets/gallery.svg" class="!h-[5rem] w-[5rem] "/>
+    <p class="text-[15px] !text-[#ffffff] font-semibold !text-[22px]">Design</p>
+    <p class="text-[#ffffff] flex text-center !text-[12px]">UX/UI design focuses on creating user-friendly and visually appealing digital interfaces</p>
+  </div>
+
+ <div class="rounded-lg bg-[#5382A1] py-4 px-2 flex flex-col items-center shadow-md transition duration-300 ">
+ <img src="../../src/assets/java.svg" class="!h-[5rem] w-[5rem]"/>
+    <p class="text-[15px] !text-[#ffffff] font-semibold !text-[22px]">Java</p>
+    <p class="text-[#ffffff] flex text-center !text-[12px]">Java is a high-level, class-based, object-oriented programming language</p>
+  </div>
+
+</div>
+
+</div>
