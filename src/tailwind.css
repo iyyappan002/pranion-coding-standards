@@ -26,3 +26,14 @@ h1:where(.astro-jbfsktt5){
 .hover-invert:hover {
     filter: invert(1);
   }
+
+  @media only screen and (max-width: 600px) {
+    .hero:where(.astro-jbfsktt5)>img:where(.astro-jbfsktt5), .hero:where(.astro-jbfsktt5)>.hero-html:where(.astro-jbfsktt5){
+        height: 30rem !important;
+        width: 24rem !important;
+    }
+    h1:where(.astro-jbfsktt5){
+        font-size: 44px !important;
+        white-space: nowrap !important;
+    }
+  }
